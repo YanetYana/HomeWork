@@ -1,2 +1,2 @@
 # HomeWork
-There you wii find my HW!
+Here you will find some of my HomeWork!
