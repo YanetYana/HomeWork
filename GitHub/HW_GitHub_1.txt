@@ -126,7 +126,6 @@ XML
  	<pets>0</pets>
  	<salary>600</salery>
    </resume>
-	
 	Esc
 	wq
 
@@ -193,6 +192,7 @@ XML
 	  <Priority></Priority>
 	  <Attachment></Attachment>
 	</Bug_Report>
+	
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 	push butom "Commit changes"
 
