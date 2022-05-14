@@ -1,0 +1,344 @@
+{
+	"info": {
+		"_postman_id": "98ce5481-4e7c-4222-abce-b5b0c542d5b5",
+		"name": "Newgr_28",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "first Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?name=Anna&age=18",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Anna"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post_reg",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Alex",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "5000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_2",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_2"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?name=Yana&age=41",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Yana"
+						},
+						{
+							"key": "age",
+							"value": "41"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Yana",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "41",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "800",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_2",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_1?name=Yana&age=41&weight=68",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Yana"
+						},
+						{
+							"key": "age",
+							"value": "41"
+						},
+						{
+							"key": "weight",
+							"value": "68"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_2?name=Yana&age=41&salary=800",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Yana"
+						},
+						{
+							"key": "age",
+							"value": "41"
+						},
+						{
+							"key": "salary",
+							"value": "800"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Yana&age=41&salary=800",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Yana"
+						},
+						{
+							"key": "age",
+							"value": "41"
+						},
+						{
+							"key": "salary",
+							"value": "800"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Yana&age=41&salary=800",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Yana"
+						},
+						{
+							"key": "age",
+							"value": "41"
+						},
+						{
+							"key": "salary",
+							"value": "800"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_2?name=Yana&age=41&salary=800",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Yana"
+						},
+						{
+							"key": "age",
+							"value": "41"
+						},
+						{
+							"key": "salary",
+							"value": "800"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
