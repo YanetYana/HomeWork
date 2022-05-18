@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap');
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.menu {
+    height: 56px;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.horizontal>li {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.horizontal>li>a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.horizontal a {
+    background-color: cornflowerblue;
+}
+
+.horizontal a:hover {
+    background-color: rgb(16, 189, 16);
+}
+
+.main {
+    padding: 0 100px 0 100px;
+    height: 80vh;
+    margin: 20px;
+}
+
+.main-img {
+    border: 2px black solid;
+    margin: 10px;
+}
+
+.main-img>img {
+    max-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+.mainarticale {
+    display: flex;
+    flex-direction: row;
+    border: 1px purple solid;
+    background-color: salmon;
+}
+
+.mainarticale>div {
+    flex: 1 1 0;
+    width: 0;
+}
+
+.main-txt>h1 {
+    text-align: center;
+    font-size: 2 rem;
+}
+
+.main-txt>p {
+    margin: 25px 0;
+    padding: 20px;
+}
+
+.name,
+.publish {
+    background-color: darkseagreen;
+}
+
+.name>h2 {
+    text-align: center;
+    font-size: 2 rem;
+    margin: 20px 0 0 0;
+}
+
+.publish {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 25px 0;
+    padding: 20px;
+}
+
+.colorbuttom {
+    background: #6CB3D9;
+    border-radius: 20px;
+}
+
+.publish-img {
+    flex: 1;
+}
+
+.publish-txt {
+    flex: 2;
+    margin: 0 10px;
+}
+
+.publish-txt>p {
+    margin: 0;
+}
+
+.publish-img>img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.publish>input {
+    font-size: 25px;
+    padding: 8px;
+    margin: 20px;
+}
+
+.publish>textarea {
+    font-size: 25px;
+    padding: 8px;
+    margin: 20px;
+}
+
+.fill-in-form div {
+    margin: 10px 0;
+}
+
+.name3>h2 {
+    text-align: center;
+    font-size: 2 rem;
+    background-color: dimgray;
+    margin: 20px 0 0 0;
+}
+
+.ukr-news,
+.world-news {
+    background-color: dimgray;
+    flex: 1;
+}
+
+.news3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.ukr-news h4 {
+    text-align: center;
+    font-size: 2 rem;
+}
+
+.world-news h4 {
+    text-align: center;
+    font-size: 2 rem;
+}
+
+.ukr-news li a {
+    text-decoration: none;
+    color: black;
+}
+
+.world-news li a {
+    text-decoration: none;
+    color: black;
+}
+
+.sport {
+    text-align: center;
+    background-color: darkcyan;
+    margin: 20px 0 0 0;
+}
+
+.sport>h2 {
+    margin: 20px 0 0 0;
+}
+
+.table-results {
+    background-color: darkcyan;
+    padding: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block-end: 40px;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+td:nth-child(1),
+td:nth-child(2),
+td:nth-child(5) {
+    text-align: center;
+}
