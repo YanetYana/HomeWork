@@ -1,3 +1,37 @@
+БАЗА ДАННЫХ ИГРЫ В ШАХМАТЫ.
+1) Создать схему БД (название - ваша фамилия)
+
+2) Создать таблицы:
+- users с полями id, login, password и заполнить 15 произвольными записями.
+- profiles с полями id, first_name, last_name, email, age и заполнить 10 произвольными записями.
+- games с полями id, first_player_id, second_player_id и заполнить 10 записями, значения для полей first_player_id, second_player_id взять из поля id таблицы profiles, например первый играл с пятым, четвертый с десятым и тд.
+- game_results с полями id, result_value и заполнить тремя записями:
+WIN
+LOSE
+DRAW.
+- achievements с полями id, achiev_name
+заполнить её несколькими достижениями (5-6 шт., например, " ", "master"...и тд).
+- player_achievs с полями id, player_id, achiev_id
+заполнить её идентификаторами игроков и идентификаторами достижений по принципу, что игроку может принадлежать от 1 до нескольких ачивок (подсказка - Первая нормальная форма )
+при заполнении таблицы использовать данные из PROFILES и ACHIEVEMENTS.
+- player_results с полями id, player_id, result_id, game_id заполнить её идентификаторами игроков, идентификаторами результатов по принципу, что у игрока могут быть победы/поражения/ничьи (подсказка - Первая нормальная форма ) и в поле game_id указать в какой именно игре он получил этот результат. при заполнении таблицы использовать данные из GAMES, PROFILES, GAME_RESULTS.
+
+3) В таблице users удалите пользователей под номерами 2, 5, 7, 12, 15;
+В таблице profiles измените имя пятого игрока на 'Bob';
+В таблице USERS добавить новое поле «profiles_id» и заполнить его идентификаторами профилей, так чтобы в одной записи, значение в поле id не было равным значению в profiles_id.
+
+4) НЕ создавая дополнительных полей, создать связи между всеми таблицами (FOREIGN KEY), определить какие поля в таблицах можно использовать как ссылки на Первичные ключи других таблиц
+users -> profiles
+games -> profiles
+player_achievs -> profiles
+player_achievs -> achievements
+player_results -> profiles
+player_results -> game_results
+player_results -> games.
+(подсказка, связи типа foreign key(id) references TABLE(id) некорректны ❌)
+
+
+
 CREATE DATABASE if NOT EXISTS Bocharska CHARACTER SET 'utf8mb4'; USE Bocharska;
 CREATE TABLE USERS (
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
