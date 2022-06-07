@@ -158,17 +158,3 @@ WHERE EXISTS (SELECT *
               );
 ==================================================================================================================
 
-16.
-
-SELECT Distinct P.model, L.model, P.speed, P.ram
-FROM PC P JOIN 
-     (SELECT speed, ram
-      FROM PC
-      GROUP BY speed, ram
-      HAVING Count(*) >= 2
-      ) S ON P.speed = S.speed AND 
-             P.ram = S.ram
-Join PC L ON L.speed = S.speed AND 
-             L.ram = S.ram AND 
-             P.model > L.model
-================================
