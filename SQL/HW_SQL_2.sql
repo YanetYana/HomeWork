@@ -177,26 +177,26 @@ create table roles(
 )
 
 insert into roles(role_name)
-values ('QA_manua_juiorl'),
-	   ('QA_manua_middle'),
-	   ('QA_manua_senior'),
-	   ('QA_atomation_juiorl'),
-	   ('QA_atomation_middle'),
-	   ('QA_atomation_senior'),
-	   ('Java_developer_juiorl'),
-	   ('Java_developer_middle'),
-	   ('Java_developer_senior'),
-	   ('Junior_Python_developer'),
-	   ('Middle_Python_developer'),
-	   ('Senior_Python_developer'),
-	   ('Junior_JavaScript _developer'),
-	   ('Middle_JavaScript _developer'),
-	   ('Senior_JavaScript _developer'),
-	   ('Project_Manager'),
-	   ('Designer'),
-	   ('HR'),
-	   ('CEO'),
-	   ('Sales_manager');
+values ('QA_manual_junior'),
+       ('QA_manual_middle'),
+       ('QA_manual_senior'),
+       ('QA_automation_junior'),
+       ('QA_automation_middle'),
+       ('QA_automation_senior'),
+       ('Java_developer_juiorl'),
+       ('Java_developer_middle'),
+       ('Java_developer_senior'),
+       ('Junior_Python_developer'),
+       ('Middle_Python_developer'),
+       ('Senior_Python_developer'),
+       ('Junior_JavaScript _developer'),
+       ('Middle_JavaScript _developer'),
+       ('Senior_JavaScript _developer'),
+       ('Project_Manager'),
+       ('Designer'),
+       ('HR'),
+       ('CEO'),
+       ('Sales_manager');   
 	   
 	   
 -- 9.Создать таблицу roles_employee
